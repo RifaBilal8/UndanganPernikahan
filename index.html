@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Undangan Pernikahan Rifa & Ahmad</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<!-- COVER -->
+<section class="cover" id="cover">
+    <div class="cover-overlay">
+        <p class="small-text">The Wedding Of</p>
+        <h1>Bilal & Rifa</h1>
+        <p class="date">08 Oktober 2030</p>
+        <button class="open-btn" onclick="openInvitation()">Buka Undangan 💌</button>
+    </div>
+</section>
+
+<!-- HERO -->
+<section class="hero hidden">
+    <div class="hero-overlay">
+        <p class="hero-subtitle">The Wedding Of</p>
+        <h1 class="hero-title">
+            <span>Bilal</span>
+            <span class="amp">&</span>
+            <span>Rifa</span>
+        </h1>
+        <p class="hero-text">Kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu</p>
+        <span class="hero-date">08 Oktober 203o</span>
+    </div>
+</section>
+
+<!-- STORY BOOK -->
+<section class="story" id="story">
+    <h2>Our Love Story</h2>
+
+    <div class="book-container">
+
+        <div class="book active">
+            <h3>Bilal & Rifa</h3>
+            <p>Kisah Cinta Kami</p>
+        </div>
+
+        <div class="book">
+            <h3>Pertemuan</h3>
+            <p>
+                Di antara jutaan manusia di dunia ini, Allah mempertemukan kami
+                pada waktu yang paling tepat. Sebuah pertemuan sederhana yang
+                perlahan berubah menjadi kisah penuh makna.
+            </p>
+        </div>
+
+        <div class="book">
+            <h3>Pendekatan</h3>
+            <p>
+                Seiring berjalannya waktu, percakapan demi percakapan
+                membawa kami saling mengenal lebih dalam hingga tumbuh rasa
+                nyaman dan saling percaya.
+            </p>
+        </div>
+
+        <div class="book">
+            <h3>Komitmen</h3>
+            <p>
+                Dengan niat ibadah dan restu orang tua, kami memantapkan hati
+                untuk melangkah bersama, saling menjaga dan menguatkan.
+            </p>
+        </div>
+
+        <div class="book">
+            <h3>Pernikahan</h3>
+            <p>
+                Kini kami memulai ibadah terpanjang, membangun rumah tangga
+                sakinah, mawaddah, dan warahmah hingga akhir hayat.
+            </p>
+        </div>
+
+    </div>
+
+    <button class="next-page-btn" onclick="nextPage()">Halaman Selanjutnya ➡️</button>
+</section>
+
+<!-- COUPLE SECTION -->
+<section class="couple-section hidden">
+
+    <p class="bismillah">
+        بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيْمِ
+    </p>
+
+    <p class="ayat-arab">
+        وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ مِنْ أَنْفُسِكُمْ أَزْوَاجًا
+        لِتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً ۚ
+        إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِقَوْمٍ يَتَفَكَّرُونَ
+    </p>
+
+    <p class="ayat-terjemah">
+        “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan
+        untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya,
+        dan Dia menjadikan di antaramu rasa kasih dan sayang.
+        <br><br>
+        Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda
+        bagi kaum yang berpikir.”
+        <br>
+        <span class="ayat-source">(QS. Ar-Rum: 21)</span>
+    </p>
+
+   <!-- MEMPELAI -->
+<div class="couple-wrapper floral">
+
+    <div class="couple-card">
+        <img src="https://i.pinimg.com/736x/78/f7/c4/78f7c492e0826bb0822e9a6d111d977d.jpg" alt="Rifa Sayyidati">
+        <h3>Rifa Sayyidati</h3>
+        <p class="parent">
+            Putri dari<br>
+            <strong>Bapak Muhammad Rifqi</strong> & <strong>Ibu Fatmawati</strong>
+        </p>
+    </div>
+
+    <span class="couple-separator">&</span>
+
+    <div class="couple-card">
+        <img src="https://i.pinimg.com/1200x/9e/63/18/9e63183d99d484e56e0ef47a9251317a.jpg" alt="Bilal">
+        <h3>Muhammad Bilal Mahdavikia</h3>
+        <p class="parent">
+            Putra dari<br>
+            <strong>Bapak Dede Khutbi</strong> & <strong>Ibu Kurnitussarifah</strong>
+        </p>
+    </div>
+
+    </div>
+</section>
+
+<!-- WEDDING INFO -->
+<section class="wedding-info hidden" id="event">
+
+    <div class="event-container">
+
+        <!-- AKAD -->
+        <div class="event-card akad">
+            <span class="event-icon"></span>
+            <h3>Akad Nikah</h3>
+
+            <p class="event-date">
+                <strong>Jumat</strong><br>
+                04 Oktober 2030
+            </p>
+
+            <p class="event-time">Pukul 08.00 WIB</p>
+
+            <p class="event-place">
+                KUA Kec. Citangkil<br>
+                Cilegon, Banten
+            </p>
+
+            <a href="https://www.bing.com/ck/a?!&&p=f9aff93a890268aec9ffbd988080a68f48f845c172d194460e6c0e2091df47f9JmltdHM9MTc2ODE3NjAwMA&ptn=3&ver=2&hsh=4&fclid=344b6db0-7953-61f6-1215-7f7e7805608d&u=a1L21hcHM_Jm1lcGk9MH5-RW1iZWRkZWR-QWRkcmVzc19MaW5rJnR5PTE4JnE9S1VBJTIwS2VjLiUyMENpdGFuZ2tpbCZzcz15cGlkLllONzk5OXg1MjU3NDU3OTQxNTUyNzYwNTU0JnBwb2lzPS02LjAzMjk3MTg1ODk3ODI3MTVfMTA2LjAxOTg1OTMxMzk2NDg0X0tVQSUyMEtlYy4lMjBDaXRhbmdraWxfWU43OTk5eDUyNTc0NTc5NDE1NTI3NjA1NTR-JmNwPS02LjAzMjk3Mn4xMDYuMDE5ODU5JnY9MiZzVj0xJkZPUk09TVBTUlBM"
+               target="_blank"
+               class="map-btn">
+                📍 Lihat Lokasi Akad
+            </a>
+        </div>
+
+        <!-- RESEPSI -->
+        <div class="event-card resepsi">
+            <span class="event-icon"></span>
+            <h3>Resepsi</h3>
+
+            <p class="event-date">
+                <strong>Selasa</strong><br>
+                08 Oktober 2030
+            </p>
+
+            <p class="event-time">Pukul 10.00 WIB</p>
+
+            <p class="event-place">
+                Gedung Serbaguna Cilegon<br>
+                Cilegon, Banten
+            </p>
+
+            <a href="https://www.google.com/maps/search/?api=1&query=Gedung+Serbaguna+Cilegon"
+               target="_blank"
+               class="map-btn">
+                📍 Lihat Lokasi Resepsi
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- GALERI -->
+<section class="gallery hidden" id="gallery">
+    <h2 class="gallery-title">Galeri Foto</h2>
+    <p class="gallery-subtitle">Momen indah yang kami abadikan</p>
+
+    <div class="gallery-grid polaroid-style">
+        <div class="gallery-item">
+            <img src="https://i.pinimg.com/1200x/24/b0/47/24b047a376f1b234c157361d8d1de068.jpg" alt="Prewedding 1">
+            <span class="caption">Our First Moment</span>
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://i.pinimg.com/1200x/ab/42/28/ab422883f5e0024c311c43584be1db2a.jpg" alt="Prewedding 2">
+            <span class="caption">With Love</span>
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://i.pinimg.com/736x/49/b2/e5/49b2e5a6e12cc558bc4e4f424d1d11d7.jpg" alt="Prewedding 3">
+            <span class="caption">Soft Promise</span>
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://i.pinimg.com/736x/9c/68/aa/9c68aa5188f10ef2978c9c3e3330d6ba.jpg" alt="Prewedding 4">
+            <span class="caption">Forever Us</span>
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://i.pinimg.com/1200x/ce/16/98/ce1698dd946256a7a616d4c0513b0756.jpg" alt="Prewedding 5">
+            <span class="caption">Save The Date</span>
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://i.pinimg.com/1200x/1a/5a/09/1a5a091c2d061020568a03b67dff112a.jpg" alt="Prewedding 6">
+            <span class="caption">Our Forever</span>
+        </div>
+
+    </div>
+</section>
+
+<!-- RSVP -->
+<section class="rsvp hidden" id="rsvp">
+    <h2 class="rsvp-title">RSVP & Ucapan Doa</h2>
+    <p class="rsvp-subtitle">
+        Kehadiran serta doa restu dari Bapak/Ibu/Saudara/i<br>
+        merupakan kebahagiaan dan kehormatan bagi kami 🤍
+    </p>
+
+    <form class="rsvp-form" id="rsvpForm">
+
+        <div class="form-group">
+            <input type="text" id="nama" placeholder="Nama Lengkap" required>
+        </div>
+
+        <div class="form-group">
+            <select id="kehadiran" required>
+                <option value="" disabled selected>Konfirmasi Kehadiran</option>
+                <option value="Hadir">🤍 Hadir</option>
+                <option value="Tidak Hadir">🙏 Tidak Hadir</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <textarea id="ucapan" rows="4" placeholder="Tuliskan ucapan & doa terbaik untuk kami 🤍" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-animate">
+            Kirim Ucapan 💌
+        </button>
+    </form>
+</section>
+
+<!-- BOTTOM NAVIGATION -->
+<nav class="bottom-nav">
+    <a href="#cover" class="nav-item active">
+        <svg viewBox="0 0 24 24" class="nav-icon">
+            <path d="M3 10.5L12 3l9 7.5V21a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>
+        </svg>
+        <span class="text">Home</span>
+    </a>
+
+    <a href="#story" class="nav-item">
+        <svg viewBox="0 0 24 24" class="nav-icon">
+            <path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 5v1h16v-1c0-3-4-5-8-5z"/>
+        </svg>
+        <span class="text">Bride</span>
+    </a>
+
+    <a href="#event" class="nav-item">
+        <svg viewBox="0 0 24 24" class="nav-icon">
+            <path d="M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2zM5 8h14v12H5z"/>
+        </svg>
+        <span class="text">Schedule</span>
+    </a>
+
+    <a href="#gallery" class="nav-item">
+        <svg viewBox="0 0 24 24" class="nav-icon">
+            <path d="M21 19V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2zM8 13l2.5 3 3.5-4.5L18 17H6z"/>
+        </svg>
+        <span class="text">Gallery</span>
+    </a>
+
+    <a href="#rsvp" class="nav-item">
+        <svg viewBox="0 0 24 24" class="nav-icon">
+            <path d="M21 6h-2v9H5v2a1 1 0 0 0 1 1h13l4 4V7a1 1 0 0 0-1-1zM17 12V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11l4-4h10a1 1 0 0 0 1-1z"/>
+        </svg>
+        <span class="text">Prayers</span>
+    </a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
